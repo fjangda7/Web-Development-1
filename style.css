@@ -1,0 +1,45 @@
+.container{
+    width: 96%; 
+    margin:auto; 
+}
+
+.header{
+    background-color:#FECCCB;
+    padding-bottom: 30px; 
+    font-weight: 70pt; 
+}
+
+.block{
+    display:flex;
+}
+
+.left{
+
+    flex-basis:auto;
+    order: 1;
+    background-color: #FECCFF;
+    padding: 5px 5px 500px 5px;
+
+}
+
+.content{
+
+    flex:2;
+    order:2; 
+    font-weight: bold;
+    background-color: #FFFFCB;
+    padding: 5px 5px 500px 5px;
+}
+
+.right{
+
+    flex-basis:100pt;
+    order:3;
+    background-color: #CCFFFF;
+    padding: 5px 5px 500px 5px;
+}
+
+#main-footer{
+    background-color: #CCCCFE;
+    padding: 2px 5px; 
+}
